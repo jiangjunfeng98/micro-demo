@@ -4,7 +4,7 @@
 
 此为 [微前端落地的那些事](https://juejin.cn/post/7065559452908257311#heading-17) 的配套 demo，若对你有灵感，请为文章**点个赞**。
 
-![micro-app](./imgs/2022-03-02 10-25-20.gifcask.2022-03-02 13_15_15-min.gif)
+![micro-app](https://github.com/jiangjunfeng98/micro-demo/blob/main/imgs/2022-03-02%2010-25-20.gifcask.2022-03-02%2013_15_15-min.gif)
 
 ## 注意
 
