@@ -1,0 +1,14 @@
+{
+  "name": "mirco-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mock": "apite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apite": "^1.4.0"
+  }
+}

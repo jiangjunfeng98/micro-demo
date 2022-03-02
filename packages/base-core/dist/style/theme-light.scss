@@ -1,0 +1,23 @@
+// ------ UI 主题复写 ------
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: (
+    "primary": (
+      "base": #455af7,
+    ),
+    "success": (
+      "base": #21ba45,
+    ),
+    "warning": (
+      "base": #d48806,
+    ),
+    "danger": (
+      "base": #db2828,
+    ),
+    "error": (
+      "base": #ff3636,
+    ),
+  )
+);
+
+// 导入所有样式
+@use "element-plus/theme-chalk/src/index.scss" as *;

@@ -1,0 +1,14 @@
+lockfileVersion: 5.3
+
+specifiers:
+  apite: ^1.4.0
+
+dependencies:
+  apite: 1.4.1
+
+packages:
+
+  /apite/1.4.1:
+    resolution: {integrity: sha512-Nb2HDZ+7S27Jn5U1JGbEKPzsb2rxguEddMHyGF9En04UVdLwDKEuilYjjawhlNHaJ9MGCoqka/8hBuqjkOKMJQ==}
+    hasBin: true
+    dev: false
