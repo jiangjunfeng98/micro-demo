@@ -1,4 +1,4 @@
-# singapura-fe
+# app-b-fe
 
 ## Project setup
 ```
