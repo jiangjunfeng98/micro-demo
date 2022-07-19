@@ -1,4 +1,4 @@
-# open-platform-web
+# micro-app-ain
 
 Vue 3 + Typescript + Vite + Pinia
 
@@ -25,11 +25,9 @@ $ pnpm run build
 
 ## 资源信息
 
-- naive-ui: <https://www.naiveui.com/zh-CN/os-theme>
 - pnpm: <https://www.pnpm.cn/>
 - Pinia: <https://pinia.esm.dev/>
 - VueUse: <https://vueuse.org/>
-- 图标库 ionicons5：<https://www.xicons.org/#/zh-CN>
 - [Apite](https://apite.frp.boyxing.com/)
 - [Mock.js 示例](http://mockjs.com/examples.html)
 - [Apite-示例](https://github.com/wangxing218/apite/blob/1a930a61bea1cc388d5ba9d95088d760eb71c15f/web-src/api/index.js)
