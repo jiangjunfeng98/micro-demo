@@ -8,7 +8,7 @@
 <script setup lang='ts'>
 import { reactive, watch, onMounted, onUnmounted } from 'vue';
 import { useRoute } from 'vue-router';
-import { loadMicroApp } from 'qiankun';
+import { addGlobalUncaughtErrorHandler, loadMicroApp } from 'qiankun';
 import { ElLoading } from 'element-plus';
 import type { ICachedView } from '@app/base-core';
 import apps from '@/micro/apps';
@@ -65,6 +65,10 @@ const unmountMicApp = (newVal: number, oldVal: number) => {
     }
   });
 };
+
+addGlobalUncaughtErrorHandler((event) => {
+  console.error(event);
+});
 
 watch(() => appRoute.path, activationHandleChange);
 
